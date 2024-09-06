@@ -1,0 +1,503 @@
+*{
+    text-decoration: none;
+    list-style:none ;
+    box-sizing: border-box;
+}
+:root{
+    scroll-padding-top: 60px;
+}
+
+ nav a{
+    color:RGB(17, 17, 17);
+    font-size: 14;
+    font-weight: 400;
+    
+ }
+ nav .navbar-brand{
+    color:RGB(28, 28, 28);
+font-size:18px;
+font-weight: 800;
+ }
+                   /* home section */
+#Home{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.644),rgba(0,0,0,0.644) ),url('../imgs/bg.jpg');
+    background-position: center;
+    background-size: cover; 
+}
+#Home h4{
+    font-size: 50px;
+    font-weight: 800;
+}
+#Home h1 .s1 {
+    font-size: 60px;
+    font-weight: 200;
+}
+#Home h1 .s2{
+    font-size: 60px;
+    font-weight: 400;
+}
+#Home .social{
+    display: flex;
+   justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+#Home .social a{
+    color: white;
+    background-color:#000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 5px solid transparent;
+    border-radius: 50%;
+    margin: 2px;
+    text-decoration: none;
+}
+#home i{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+                        /*------------- about section ----------*/
+ #About .image{
+    position: relative;
+    z-index: 2;
+ }
+ #About h2{
+    position: relative;
+ }
+ #About h2::after {
+    content: '';
+    height: 40px;
+    width: 25%;
+    position: absolute;
+    background-image: url('../imgs/dots.png');
+   background-repeat: repeat;
+    bottom:-20%;
+    left: 0%;
+    z-index: -1;
+   }
+ #About .image::after{
+    content: '';
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    background-image: url('../imgs/dots.png');
+   background-repeat: repeat;
+    bottom: -30px;
+    left: -30px;
+    z-index: -1;
+ }
+
+ #About h2{
+    color:#343434;
+    font-size: 30px;
+    font-weight: 800;
+ }
+ #About .disc {
+    color:RGB(153, 153, 153);
+    font-size: 14px;
+    font-weight: 400;
+ }
+ #About p{
+    color:RGB(116, 129, 130);
+    font-size:15px ;
+    font-weight:400 ;
+ }
+ #About p span{
+    
+font-size: 15px;
+font-weight: 700;
+ }
+ #About .progress{
+background-color:RGB(247, 247, 247);
+height: 20px;
+ }
+ #About .progress h5{
+    font-size: 13px;
+    font-weight: 500;
+ }
+ #About .but .b1{
+    background-color: #000000;
+    color: #fff;
+    transition: .5s;
+ }
+ #About button{
+    background-color: #fff;
+    height: 40px;
+    width: 140px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 400;
+    transition: .5s;
+
+ }
+
+ #About button:hover {
+    background-color: #000000;
+    color: #fff;
+ }
+ #about .b1:hover{
+    background-color: #fff;
+    color: #000000;
+ }
+                             /*----------- services section -----------*/
+
+  #Services{
+    background-color: #f0f0f0;
+  } 
+  #Services h2{
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    z-index: 2;
+   }
+   #Services h2::after {
+    content: '';
+    height: 40px;
+    width: 20%;
+    position: absolute;
+    background-image: url('../imgs/dots.png');
+   background-repeat: repeat;
+    bottom: 30%;
+    left: 40%;
+    z-index: -1;
+   }
+  #Services .items{
+    background-color: #fff;
+  }       
+            
+  #Services .items{
+    border-radius: 7px;
+  }
+  #Services i{
+    
+  width: 70px;
+ height: 70px;
+  background-color:#f0f0f0;
+  border-radius: 50%;
+    padding: 16px;
+    margin-bottom: 15px;
+    font-size:30px ;
+    transition: .5s;
+  }
+  #Services h3{
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 16px;
+  }
+  #Services p{
+    color: RGB(116, 129, 130);
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  #Services .items:hover i{
+    background-color: #000000;
+    color: #fff;
+  }
+                                   /*------------ work section ----------*/
+                                   .Works h2{
+                                    font-size: 40px;
+                                    font-weight: 900;
+                                    position: relative;
+                                    z-index: 2;
+                                   }
+                                   .Works h2::after {
+                                    content: '';
+                                    height: 40px;
+                                    width: 20%;
+                                    position: absolute;
+                                    background-image: url('../imgs/dots.png');
+                                   background-repeat: repeat;
+                                    bottom: 30%;
+                                    left: 40%;
+                                    z-index: -1;
+                                   }
+                                   .nav-pills .nav-link.active{
+                                    border: none;
+                                    background-color:transparent;
+                                    box-shadow: none;
+                                    text-decoration: underline;
+                                    color: #000 !important;
+                                    font-size: large;
+                                 }
+                                 .content{
+                                    top:150%;
+                                    transform: translateY(-50%);
+                                    transition: 0.5s all;
+                                    z-index: 99;
+                                    color: #000;
+                                 }
+                                 .inner{
+                                    cursor: pointer;
+                                 }
+                                 .inner:hover .content{
+                                    top: 50%;
+                                    
+                                 }
+                                 .works .layer{
+                                position: absolute;
+                                top: 5px;
+                                bottom: 5px;
+                                left: 5px;
+                                width: 98%;
+                                margin: auto;
+                                background-color: #fffffff6;
+                                opacity: 0;
+                                transition: 0.5s all;
+                                box-sizing: border-box;
+                                 }
+                                 .works .layer:hover{
+                                    opacity: 1;
+                                   
+                                 }
+                                 .works .row span i{
+                                    width: 30px;
+                                    height: 30px;
+                                    border-radius: 50%;
+                                    background-color: #000;
+                                    color:#fff ;
+                                   padding:5px 0px ;
+                                   transition:0.5s all;
+                                 }
+                                 .works .row span i:hover{
+                                    cursor: pointer;
+                                    background-color: #fff;
+                                    color: #000;
+                                    border: 2px solid #000000d9;;
+                                   
+                                 }
+                            
+                            
+
+ 
+                            /*--------- client section --------------*/
+  #clients{
+      background-color: #f7f7f7;
+      }
+      #Clients h2{
+        font-size: 40px;
+        font-weight: 900;
+        position: relative;
+        z-index: 2;
+       }
+       #Clients h2::after {
+        content: '';
+        height: 40px;
+        width: 20%;
+        position: absolute;
+        background-image: url('../imgs/dots.png');
+       background-repeat: repeat;
+        bottom: 30%;
+        left: 40%;
+        z-index: -1;
+       }
+  #clients img{
+    width: 100px ;
+    height: 100px;
+    border-radius: 50%;
+
+ } 
+ .slider{
+    width: 70%;
+    margin: auto;
+ }
+ 
+ .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: RGB(52, 52, 52);
+ }
+   .mini {
+    background-color:#fff
+   }                      
+   .mini i{
+    font-size: 30px;
+    
+   }                 
+   .mini h5{
+    font-size: 30px;
+    font-weight: 900;
+    padding-block: 20px;
+   }
+   .mini h6{
+    font-size: 15px;
+    font-weight: 600;
+    color:RGB(116, 129, 130);
+   }                  
+                           /*------------ team section ------------*/
+     #Team {
+        background-color: #f0f0f0;
+     }             
+    
+     #Team h2{
+        font-size: 40px;
+        font-weight: 900;
+        position: relative;
+        z-index: 2;
+       }
+       #Team h2::after {
+        content: '';
+        height: 40px;
+        width: 20%;
+        position: absolute;
+        background-image: url('../imgs/dots.png');
+       background-repeat: repeat;
+        bottom: 30%;
+        left: 40%;
+        z-index: -1;
+       }        
+     #Team .container{
+        margin: auto;
+     }
+     #Team .items{
+        background-color:#5b5b5b;
+        color: #fff;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+     }
+     #Team h5{
+        font-size: 25px;
+        font-weight: 500;
+     }
+     #Team p{
+        font-size: 20px;
+        font-weight: 700;
+     }
+
+     #Team .card{
+        border-radius: 0% !important;
+        border-bottom-left-radius: 5px !important;
+        border-bottom-right-radius: 5px !important;
+    
+     }
+     #Team .image{
+        position: relative;
+        overflow: hidden;
+     }
+     #Team img{
+        border-radius: 0%;
+        transition: .5s;
+
+     }
+    
+    
+      .social {
+        background-color: rgba(255, 255, 255, 0.95);
+        position: absolute;
+        top: 5px;
+       bottom: 5px;
+        left: 5px;
+        text-align: center;
+        opacity: 0;
+        transition: 0.5s;
+        width: 100%;
+        height: 100%;
+
+        
+     } 
+     .social ul{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%);
+     }
+
+         .social ul li{
+            display: inline-block;
+            padding-inline: 10px;
+         }
+     #Team .card:hover .social{
+        transform: rotateY(180deg) scale(0.5, 0.5);
+        opacity: 1;
+     }
+
+
+                            /*-------------- contact section ------------*/
+   #Contact h2{
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    z-index: 2;
+   }
+   #Contact h2::after {
+    content: '';
+    height: 40px;
+    width: 20%;
+    position: absolute;
+    background-image: url('../imgs/dots.png');
+   background-repeat: repeat;
+    bottom: 30%;
+    left: 40%;
+    z-index: -1;
+   }
+   
+ #Contact i{
+    
+width: 60px;
+  height: 60px;
+background-color:#f0f0f0;
+border-radius: 50%;
+  padding: 16px;
+  margin-bottom: 15px;
+  font-size:25px ;
+  transition: .5s;
+}
+#Contact .items:hover i{
+    background-color: #000000;
+    color: #fff;
+
+}
+#Contact h3{
+    font-size: 16px;
+  font-weight: 700;
+ }
+ #contact p{
+     color:RGB(116, 129, 130);
+     font-size: 15px;
+     font-weight: 400;
+ }
+ #Contact input{
+    margin-inline: 10px;
+    height: 40px;
+    width: 40%;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color:RGB(244, 244, 244);
+}
+#Contact .area textarea{
+    margin-block: 20px;
+    background-color:RGB(244, 244, 244);
+    width: 82%;
+    height: 150px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+#Contact button{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #000000;
+    color: #fff;
+      transition: .5s;
+}
+#Contact button:hover{
+    background-color:#fff ;
+    border:1px solid #000000 ;
+    color: #000000;
+}
+
+
+#Contact .footer{
+    min-height: 10vh;
+    background-color: #000000;
+}
