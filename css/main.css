@@ -13,6 +13,7 @@
     font-weight: 400;
     
  }
+
  nav .navbar-brand{
     color:RGB(28, 28, 28);
 font-size:18px;
@@ -205,6 +206,10 @@ height: 20px;
                                     font-weight: 900;
                                     position: relative;
                                     z-index: 2;
+                                   }
+                                   .works .container  ul li .nav-link {
+                                    color:cadetblue;
+                                    text-decoration: none;
                                    }
                                    .Works h2::after {
                                     content: '';
@@ -488,7 +493,7 @@ border-radius: 50%;
     border-color: transparent;
     background-color: #000000;
     color: #fff;
-      transition: .5s;
+    transition: .5s;
 }
 #Contact button:hover{
     background-color:#fff ;
