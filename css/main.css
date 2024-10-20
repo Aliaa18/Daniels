@@ -416,9 +416,10 @@ height: 20px;
          .social ul li{
             display: inline-block;
             padding-inline: 10px;
+            cursor: pointer;
          }
      #Team .card:hover .social{
-        transform: rotateY(180deg) scale(0.5, 0.5);
+        transform: rotateY(360deg) scale(0.7, 0.7);
         opacity: 1;
      }
 
